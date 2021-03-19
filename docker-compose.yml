@@ -1,0 +1,9 @@
+version: '0.1'
+
+services: 
+  angularecommerce:
+    image: angularecommerce
+    build: .
+    ports:
+      - 8081:80
+
